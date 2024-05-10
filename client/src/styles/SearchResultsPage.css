@@ -1,0 +1,69 @@
+/* Overall layout adjustments */
+body {
+  font-family: Arial, sans-serif; /* Ensures a clean, readable font is used */
+}
+
+/* Heading for search results */
+h1 {
+  text-align: center; /* Center the heading to emphasize the search query */
+  color: #333; /* Dark grey for readability */
+  margin-top: 20px; /* Adds space above the heading */
+}
+
+/* Container for all search results */
+.results-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center results in the middle of the page */
+  margin-top: 20px; /* Space above the results list */
+}
+
+/* Individual result items */
+.result-item {
+  width: 80%; /* Makes sure each item doesn't span the full page width */
+  padding: 15px; /* Padding inside each item for spacing */
+  margin-bottom: 10px; /* Space between items */
+  background-color: #f8f8f8; /* Light grey background */
+  border: 1px solid #ddd; /* Subtle border for each item */
+  border-radius: 8px; /* Rounded corners for a softer look */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Styling for the post content headline within each item */
+.result-item h3 {
+  color: #2a6496; /* Dark blue for visibility and aesthetics */
+  margin-bottom: 5px; /* Space between the headline and author info */
+}
+
+/* Author information styling */
+.result-item p {
+  font-size: 0.9rem; /* Slightly smaller font size for meta information */
+  color: #666; /* Medium grey for subtlety */
+}
+
+/* SearchResultsPage.css */
+
+.search-results-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.search-results-page h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.search-results-page .post {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.search-results-page .post:last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,11 @@
+export const hostRoute = "http://localhost:5001";
+export const loginRoute = `${hostRoute}/auth/login`;
+export const registerRoute = `${hostRoute}/auth/register`;
+export const getFeedPostsRoute = `${hostRoute}/posts`;
+export const getUsersPostsRoute = `${hostRoute}/posts`;
+export const createPostRoute = `${hostRoute}/posts`;
+export const getUserRoute = `${hostRoute}/user`;
+export const createPost = `${hostRoute}/posts`;
+export const likePostRoute = `${hostRoute}/posts`;
+export const addCommentRoute = `${hostRoute}/posts`;
+export const searchPostsRoute = `${hostRoute}/posts/search`;

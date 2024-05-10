@@ -1,0 +1,52 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px; /* Increased top margin for better spacing */
+  text-align: center; /* Centers the text within the container */
+}
+
+.home-header {
+  font-size: 2.5em; /* Large text for the header */
+  color: var(
+    --background-color
+  ); /* Utilizing CSS variable for theme consistency */
+  margin-bottom: 20px; /* Spacing below the header */
+}
+
+.home-text {
+  font-size: 1.2em; /* Slightly larger text for readability */
+  color: var(--light-background-color); /* Softer color for the text */
+  max-width: 600px; /* Max width for better text readability on larger screens */
+  margin-bottom: 30px; /* Space before the button */
+}
+
+.join-button {
+  padding: 10px 20px;
+  font-size: 1.1em;
+  background-color: var(--button-color);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none; /* Removes underline from the link */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.join-button:hover {
+  background-color: var(--button-hover-color);
+}
+
+:root {
+  --page-backgroubd-color: #fcfdfe;
+  --navbar-background-color: #c2c7cb;
+  --widget-background-color: #ffffff;
+  --header-text-color: #2a5c88;
+  --header-text-hover-color: #193e5d;
+  --button-color: #2a5c88;
+  --button-hover-color: #193e5d;
+  --delete-button-color: #cf2a2a;
+  --delete-button-hover-color: #990f0f
+  --content-text-color: #333
+  --light-content-text-color: #666
+  ;
+}

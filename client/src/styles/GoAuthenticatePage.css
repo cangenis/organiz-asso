@@ -1,0 +1,14 @@
+.auth-header {
+  font-size: 2.5em; /* Large text for the header */
+  color: var(
+    --background-color
+  ); /* Utilizing CSS variable for theme consistency */
+  margin-bottom: 20px; /* Spacing below the header */
+}
+
+.auth-text {
+  font-size: 1.2em; /* Slightly larger text for readability */
+  color: var(--light-background-color); /* Softer color for the text */
+  max-width: 600px; /* Max width for better text readability on larger screens */
+  margin-bottom: 30px; /* Space before the button */
+}

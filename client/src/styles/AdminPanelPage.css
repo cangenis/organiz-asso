@@ -1,0 +1,55 @@
+.admin-panel {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+.admin-panel h1 {
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: var(--header-text-color);
+}
+
+.admin-panel p {
+  display: flex;
+  justify-content: space-between; /* Aligns items on the opposite ends */
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  padding: 10px;
+}
+
+.admin-panel ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.admin-panel li {
+  display: flex;
+  justify-content: space-between; /* Aligns items on the opposite ends */
+  align-items: center; /* Centers items vertically */
+  padding: 10px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.admin-panel button {
+  background-color: var(--button-color);
+  margin: 10px;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.admin-panel button:hover {
+  background-color: var(--button-hover-color);
+}
+
+.section {
+  margin-bottom: 45px;
+}

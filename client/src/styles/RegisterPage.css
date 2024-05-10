@@ -1,0 +1,78 @@
+.register-container {
+  max-width: 40%;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form label {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  margin-top: 5px;
+  font-size: 18px;
+  text-align: left;
+  color: #333;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.register-form input {
+  width: 90%;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.register-form input {
+  width: 90%;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.register-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--button-color);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  align-self: center;
+}
+
+.register-form button:hover {
+  background-color: var(--button-hover-color);
+}
+
+.register-form .register-link {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.register-form .register-link a {
+  color: #24527a;
+  text-decoration: none;
+}
+
+.register-form .register-link a:hover {
+  text-decoration: underline;
+}
